@@ -17,13 +17,11 @@ GENERIC_APPS = [
 
 THIRD_PARTY_APPS = [
     'rest_framework',
-    'rest_framework.authtoken',
-    'corsheaders',
-    'django_filters'
+    'rest_framework.authtoken'
 ]
 
 PROJECT_APPS = [
-
+    'product'
 ]
 
 INSTALLED_APPS = GENERIC_APPS + THIRD_PARTY_APPS + PROJECT_APPS
